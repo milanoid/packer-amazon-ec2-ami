@@ -2,4 +2,4 @@ install:
   - wget https://releases.hashicorp.com/packer/1.1.0/packer_1.1.0_linux_amd64.zip
   - unzip packer_1.1.0_linux_amd64.zip
 script:
-  - build.sh
+  - ./build.sh
